@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(235, 234, 233);
+  background-color: rgb(245, 244, 244);
 }
 @media(min-device-width: 830px) and (max-device-width: 1920px){
   img.bannercel,
@@ -16,7 +16,12 @@ body{
   .textcel2,
   .textcel1,
   .textcel2q,
-  .textcel1q{
+  .textcel1q,
+  .ellipse1,
+  .ellipse2,
+  .ellipse3,
+  img.ellipse1cel,
+  img.button2{
       display: none;
 }
 nav{
@@ -43,7 +48,10 @@ img.clock {
   height: 31vh;
   width: 61vh;
   z-index: 1;
-  opacity: 0.7
+  opacity: 0.7;
+ 
+}
+  
 }
   img.button{
   position: absolute;
@@ -88,7 +96,7 @@ img.clock {
   font-size: 16px;
   line-height: 160%;    
 }
-}
+
 @media only screen and (min-width: 1000px) and (max-width: 1900px) {
 	.text1 {
     position: absolute;
@@ -120,9 +128,15 @@ img.clock {
   .textcel2,
   .textcel1,
   .textcel2q,
-  .textcel1q{
+  .textcel1q,
+  img.ellipse1cel,
+  img.button2{
   display: none;
 } 
+body{
+  background-color:#FFFFFF;
+}
+
 img.hamburguer{
   float: right;
 }
@@ -135,11 +149,11 @@ img.hamburguer{
 } 
 img.backgroundtab {
   position: absolute;
-  top: 9vh;
-  right: 1vh;
-  width: 50%;
-  height: 107vh;
-  z-index: -1;
+    top: 9vh;
+    right: 1vh;
+    width: 84vh;
+    height: 107vh;
+    z-index: -1;
 }
 img.clock {
   position: absolute;
@@ -148,6 +162,7 @@ img.clock {
   height: 32vh;
   width: 60vh;
   opacity: 0.7;
+  
 }
 .text1 {
   position: absolute;
@@ -182,14 +197,39 @@ img.button {
   width: 26vh;
   z-index: 1;
 }
+img.ellipse1{
+  position: absolute;
+  top: 9vh;
+  right: 0vh;
+  height: 52vh;
+  width: 46vh;
+  z-index: 1
+
+}
+img.ellipse2{
+  position: absolute;
+  top: 58vh;
+  right: 35vh;
+  height: 27vh;
+  width: 28vh;
+}
+img.ellipse3{
+  position: absolute;
+    top: 42vh;
+    right: 129vh;
+    height: 42vh;
+    width: 28vh;
+    z-index: 1;
+
+}
  img.bannertab{
   margin-top: 99vh;
-  width: 100%;
+  width: 154vh;
   height: 49vh;
 }   
 img.whotab {
   margin-top: -2vh;
-  width: 100%;
+  width: 154vh;
   height: 258vh;    
 }     
 }
@@ -200,17 +240,22 @@ img.whotab,
 img.banner,
 img.bannertab,
 img.background,
-img.backgroundtab{
+img.backgroundtab,
+.ellipse2,
+.ellipse3{
   display:none;
 }
-nav{
-  margin-left: 26vh;
-  width: 48vh;
-  height: 0vh;
-  margin-top: 2vh;
+
+img.logo{
+  float:left;
+  width: 21vh;
+  height: 9vh;
 }
 img.hamburguer{
-  float: right;
+  position: absolute;
+  right: -17vh;
+  width: 6vh;
+  height: 4vh;
 }
 img.backgroundcel {
   width: 41vh;
@@ -218,6 +263,14 @@ img.backgroundcel {
     position: relative;
     height: 107vh;
     z-index: -1;
+}
+img.ellipse1{
+  position: absolute;
+  top: 6vh;
+  right: -27vh;
+  height: 41vh;
+  width: 37vh;
+ 
 }
 .text1 {
   font-family: 'Libre Baskerville';
@@ -274,14 +327,14 @@ img.button {
 }
 img.bannercel{
   position: absolute;
-  top: 109vh;
+  top: 94vh;
   height: -12vh;
-  width: 91vh;
-  z-index: 1
+  width: 88vh;
+  z-index: 1;
 }
 
 img.whocel {
-  width: 90vh;
+  width: 88vh;
   height: 253vh;
 }
 .textcel1q{
@@ -321,11 +374,28 @@ img.whocel {
 }
 img.woman {
   position: absolute;
-  top: 305vh;
+  top: 310vh;
   right: 0vh;
   height: 46vh;
   width: 41vh;
   z-index: 1;
 }
-
+img.button2{
+  position: absolute;
+  top: 300vh;
+  right: 10vh;
+  height: 4vh;
+  width: 27vh;
+  z-index: 1;
 }
+img.ellipse1cel{
+  position: absolute;
+  top: 227vh;
+  right: -27vh;
+  height: 54vh;
+  width: 49vh;
+  z-index: 1;
+}
+}
+
+
