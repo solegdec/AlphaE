@@ -1,6 +1,7 @@
 
 body{
     background-color: rgb(245, 244, 244);
+    width: 100%;
   }
 @media (max-width: 575px) {
     .list,
@@ -18,8 +19,7 @@ body{
     
         display: flex;
         flex-direction: column;
-        
-        
+             
     }
 .top{
     display: flex;
@@ -32,15 +32,15 @@ body{
     width: 30%;
        top: 2vh;
 }
-.hamburguer{
-    position: relative;
-    margin-left: 67vh
+img.hamburguer {
+    position: absolute;
+    right: -8vh;
 }
 img.clock{
     z-index: 1;
     position: absolute;
-    left: 27vh;
-    max-width: 45%;
+    left: 6vh;
+    max-width: 29%;
     opacity: 0.8;
     top: 32vh;
 }
@@ -85,15 +85,18 @@ img.bannercel{
 }
 @media (min-width: 576px) and   (max-width: 991px){
     img.bannercel,
-    img.banner,
+   img.bannertab,
     img.woman,
     img.whocel,
+    img.whotab,
     .list,
+    .list ul,
     img.textcel1,
     img.textcel2,
-    img.background,
+    img.backgroundtab,
     img.backgroundcel,
-    img.who,
+    img.spots,
+    
     .textcel2,
     .textcel1,
     .textcel2q,
@@ -105,44 +108,56 @@ img.bannercel{
   .top{
     display: flex;
     flex-direction: column ;
-    flex-grow: 1;
-}        
+   
+}   
+.hamburguer{
+    margin-left: 158vh;
+}     
   .logo {
-  
-    width: 28%;
-    
+    width: 52%;
     margin-left: 6vh;
 }
-    .list ul{
-        display: none;
-    }
-    img.clock{
+
+   img.clock{
         z-index: 1;
         position: absolute;
-        left: 77vh;
-        max-width: 28%;
+        left: 133%;
+        width: 60%;
         opacity: 0.8;
-        top: 35vh;
-    }
-    img.backgroundtab {
-        margin-left: 104vh;
-        width: 53%;
+        top: 62%;
+}
     
-    }
+    
     .text1 {
         font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5em;
-    line-height: 160%;
-    color: #333333;
-    position: absolute;
-    top: 10vh;
-    width: 33%;
-    margin-left: 60vh;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3em;
+        line-height: 160%;
+        color: #333333;
+        position: absolute;
+        top: 14vh;
+        width: 48%;
+        margin-left: 88vh;
 
     
     }
+    img.button {
+        position: absolute;
+        top: 135vh;
+        right: 10vh;
+        height: 5vh;
+        width: 33vh;
+        z-index: 1;
+    }
+      
+      .spots{
+        position: absolute;
+        top: 18vh;
+        right: 34vh;
+        height: 2vh;
+        width: 31vh;
+      } 
 
 .text2{
    
@@ -153,11 +168,41 @@ img.bannercel{
     line-height: 160%;
     color: #333333;
     position: absolute;
-    top: 62vh;
-    width: 33%;
-    margin-left: 61vh;
-
+    top: 113vh;
+    width: 45%;
+    margin-left: 89vh;
 }
+img.ellipse1{
+    position: absolute;
+    top: 9vh;
+    right: -37vh;
+    height: 89%;
+    width: 60%;
+    z-index: 1
+  
+  }
+  img.ellipse2{
+    position: absolute;
+    top: 58vh;
+    right: 35vh;
+    height: 27vh;
+    width: 28vh;
+  }
+  img.ellipse3{
+    position: absolute;
+      top: 42vh;
+      right: 129vh;
+      height: 42vh;
+      width: 28vh;
+      z-index: 1;
+  
+  }
+  .mid {
+    
+    display: flex;
+    flex-direction: column;
+}
+
 }
 @media (min-width: 992px)  {
     img.bannercel,
