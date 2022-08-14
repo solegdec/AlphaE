@@ -1,401 +1,249 @@
+
 body{
-  background-color: rgb(245, 244, 244);
-}
-@media(min-device-width: 830px) and (max-device-width: 1920px){
-  img.bannercel,
-  img.bannertab,
-  img.woman,
-  img.textcel1,
-  img.textcel2,
-  img.hamburguer,
-  img.backgroundcel,
-  img.backgroundtab,
-  img.whotab,
-  img.whocel,
-  img.spots,
-  .textcel2,
-  .textcel1,
-  .textcel2q,
-  .textcel1q,
-  .ellipse1,
-  .ellipse2,
-  .ellipse3,
-  img.ellipse1cel,
-  img.button2{
-      display: none;
-}
-nav{
-  margin-left: 250px;
-}
-img.logo{
-  width: 28vh;
-}
-nav ul li {
-  display:  inline-block;
-  margin: 14px 31px;
-  font-family: "monserrat";
-  font-size: 14px;
-}
-  img.background{
-  width: 200vh;
-  height: 75vh;
-  z-index: -1;
-}
-img.clock {
-  position: absolute;
-  top: 25vh;
-  right: 36vh;
-  height: 31vh;
-  width: 61vh;
-  z-index: 1;
-  opacity: 0.7;
+    background-color: rgb(245, 244, 244);
+  }
+@media (max-width: 575px) {
+    .list,
+    img.who,
+    img.whotab,
+    img.banner,
+    img.bannertab,
+    img.background,
+    img.backgroundtab,
+    .ellipse2,
+    .ellipse3{
+      display:none;
+    }
+.wrapper{
+    
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+.top{
+    display: flex;
+    flex-direction: column ;
+}        
  
+.logo{
+    position: absolute;
+    left: 2vh;
+    width: 30%;
+       top: 2vh;
 }
-  
+.hamburguer{
+    position: relative;
+    margin-left: 67vh
 }
-  img.button{
-  position: absolute;
-  top: 76vh;
-  right: 126vh;
-  height: 5vh;
-  width: 27vh;
-}
-  img.banner{
-  width: 200vh;
-  height: 60vh;
-}
-  img.who{
-  width: 200vh;
-  height: 85vh;
-} 
-.text1 {
-  position: absolute;
-  margin-left: 196px;
-  width: 36vh;
-  top: 24vh;
-  right: 130vh;
-  height: 264px;
-  left: 13vh;
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 45px;
-  line-height: 150%;
-  color: #333333;
-}
-.text2 {
-  position: absolute;
-  top: 61vh;
-  right: 111vh;
-  color: #333333;
-  width: 425px;
-  height: 78px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;    
+img.clock{
+    z-index: 1;
+    position: absolute;
+    left: 27vh;
+    max-width: 45%;
+    opacity: 0.8;
+    top: 32vh;
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1900px) {
-	.text1 {
-    position: absolute;
-    margin-left: 196px;
-    width: 61vh;
-    top: 21vh;
-    right: 130vh;
-    height: 264px;
-    left: 2vh;
+img.backgroundcel{
+    margin-left: 15vh;
+    width: 100%;
+}
+.text1{
     font-family: 'Libre Baskerville';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 150%;
+    font-size: 100%;
+    line-height: 160%;
     color: #333333;
-  }
+    position: absolute;
+    top: 9vh;
+    width: 28vh;
+    margin-left: 21vh;
+
 }
- @media(min-device-width: 326px) and (max-device-width: 820px){
-  img.bannercel,
-  img.banner,
-  img.woman,
-  img.whocel,
-  nav ul li,
-  img.textcel1,
-  img.textcel2,
-  img.background,
-  img.backgroundcel,
-  img.who,
-  .textcel2,
-  .textcel1,
-  .textcel2q,
-  .textcel1q,
-  img.ellipse1cel,
-  img.button2{
-  display: none;
-} 
-body{
-  background-color:#FFFFFF;
+.text2{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.4em;
+    line-height: 160%;
+    color: #333333;
+    position: absolute;
+    top: 37vh;
+    width: 26vh;
+
+
 }
 
-img.hamburguer{
-  float: right;
+img.bannercel{
+    margin-left: 26vh;
+    width: 100%;
+    height: 40%;
 }
-.spots{
-  position: absolute;
-  top: 18vh;
-  right: 34vh;
-  height: 2vh;
-  width: 31vh;
-} 
-img.backgroundtab {
-  position: absolute;
-    top: 9vh;
-    right: 1vh;
-    width: 84vh;
-    height: 107vh;
-    z-index: -1;
-}
-img.clock {
-  position: absolute;
-  top: 41vh;
-  right: 53vh;
-  height: 32vh;
-  width: 60vh;
-  opacity: 0.7;
   
 }
-.text1 {
-  position: absolute;
-  width: 61vh;
-  height: 2;
-  top: -1vh;
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 150%;
-  color: #333333;
-  margin-left: 57vh
+@media (min-width: 576px) and   (max-width: 991px){
+    img.bannercel,
+    img.banner,
+    img.woman,
+    img.whocel,
+    .list,
+    img.textcel1,
+    img.textcel2,
+    img.background,
+    img.backgroundcel,
+    img.who,
+    .textcel2,
+    .textcel1,
+    .textcel2q,
+    .textcel1q,
+    img.ellipse1cel,
+    img.button2{
+    display: none;
+  } 
+  .top{
+    display: flex;
+    flex-direction: column ;
+    flex-grow: 1;
+}        
+  .logo {
+  
+    width: 28%;
+    
+    margin-left: 6vh;
 }
-.text2 {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  position: absolute;
-  top: 68vh;
-  right: 46vh;
-  color: #333333;
-  width: 425px;
-}
-img.button {
-  position: absolute;
-  top: 91vh;
-  right: 76vh;
-  height: 5vh;
-  width: 26vh;
-  z-index: 1;
-}
-img.ellipse1{
-  position: absolute;
-  top: 9vh;
-  right: 0vh;
-  height: 52vh;
-  width: 46vh;
-  z-index: 1
+    .list ul{
+        display: none;
+    }
+    img.clock{
+        z-index: 1;
+        position: absolute;
+        left: 77vh;
+        max-width: 28%;
+        opacity: 0.8;
+        top: 35vh;
+    }
+    img.backgroundtab {
+        margin-left: 104vh;
+        width: 53%;
+    
+    }
+    .text1 {
+        font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 160%;
+    color: #333333;
+    position: absolute;
+    top: 10vh;
+    width: 33%;
+    margin-left: 60vh;
+
+    
+    }
+
+.text2{
+   
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 160%;
+    color: #333333;
+    position: absolute;
+    top: 62vh;
+    width: 33%;
+    margin-left: 61vh;
 
 }
-img.ellipse2{
-  position: absolute;
-  top: 58vh;
-  right: 35vh;
-  height: 27vh;
-  width: 28vh;
 }
-img.ellipse3{
-  position: absolute;
-    top: 42vh;
-    right: 129vh;
-    height: 42vh;
-    width: 28vh;
-    z-index: 1;
+@media (min-width: 992px)  {
+    img.bannercel,
+    img.bannertab,
+    img.woman,
+    img.textcel1,
+    img.textcel2,
+    img.hamburguer,
+    img.backgroundcel,
+    img.backgroundtab,
+    img.whotab,
+    img.whocel,
+    img.spots,
+    .textcel2,
+    .textcel1,
+    .textcel2q,
+    .textcel1q,
+    .ellipse1,
+    .ellipse2,
+    .ellipse3,
+    img.ellipse1cel,
+    img.button2{
+        display: none;
+  }
+    
+    .logo{
+        left: 2vh;
+    width: 38%;
+    top: 2vh;
+    }
+    .list ul {
+        display: flex;
+        flex-direction: row;
+        margin-right: -50vh;
+        margin-top: 4px;
+        list-style: none;
+        font-size: 0.8em;
+        justify-content: space-around;
+       
+    
+    }
+    img.clock{
+        z-index: 1;
+    position: absolute;
+    left: 186vh;
+    max-width: 58%;
+    opacity: 0.8;
+    top: 46vh;
+}
+    
+    
+
+img.button{
+    position: absolute;
+    top: 121vh;
+    right: 120vh;
+    height: 8vh;
+    width: 34vh;
+}
+  
+  
+    .text1 {
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3em;
+        line-height: 160%;
+        color: #333333;
+        position: absolute;
+        top: 26vh;
+        width: 36%;
+        margin-left: 48vh;
+    }
+
+.text2{
+   
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 160%;
+        color: #333333;
+        position: absolute;
+        top: 96vh;
+        width: 33%;
+        margin-left: 48vh;
 
 }
- img.bannertab{
-  margin-top: 99vh;
-  width: 154vh;
-  height: 49vh;
-}   
-img.whotab {
-  margin-top: -2vh;
-  width: 154vh;
-  height: 258vh;    
-}     
 }
-@media (max-device-width: 325px){
-nav ul li,
-img.who,
-img.whotab,
-img.banner,
-img.bannertab,
-img.background,
-img.backgroundtab,
-.ellipse2,
-.ellipse3{
-  display:none;
-}
-
-img.logo{
-  float:left;
-  width: 21vh;
-  height: 9vh;
-}
-img.hamburguer{
-  position: absolute;
-  right: -17vh;
-  width: 6vh;
-  height: 4vh;
-}
-img.backgroundcel {
-  width: 41vh;
-    right: -47vh;
-    position: relative;
-    height: 107vh;
-    z-index: -1;
-}
-img.ellipse1{
-  position: absolute;
-  top: 6vh;
-  right: -27vh;
-  height: 41vh;
-  width: 37vh;
- 
-}
-.text1 {
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 160%;
-  color: #333333;
-  position: absolute;
-  top: 8vh;
-  right: 1vh;
-  height: 18vh;
-  width: 29vh;
-  z-index: 1;
-}
-.text2 {
-  position: absolute;
-  font-family: "Montserrat";
-  font-size: 27px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  color: #333333;
-  text-align: left;
-  top: 60vh;
-  right: 1vh;
-  height: 17vh;
-  width: 31vh;
-}
-
-img.clock {
-  position: absolute;
-  top: 38vh;
-  right: -7vh;
-  height: 22vh;
-  width: 44vh;
-  z-index: 1;
-  opacity: 0.8;
-}
-.spots{
-  position: absolute;
-  top: 18vh;
-  right: 1vh;
-  height: 2vh;
-  width: 31vh;
-} 
-img.button {
-  position: absolute;
-  top: 79vh;
-  right: 5vh;
-  height: 5vh;
-  width: 26vh;
-  z-index: 1;
-}
-img.bannercel{
-  position: absolute;
-  top: 94vh;
-  height: -12vh;
-  width: 88vh;
-  z-index: 1;
-}
-
-img.whocel {
-  width: 88vh;
-  height: 253vh;
-}
-.textcel1q{
-  font-family: "Monsterrat";
-  font-size: 34px;
-  color: #FFFFFF;
-  position: absolute;
-  top: 234vh;
-  right: -1vh;
-}
-.textcel1{
-  font-family: "Monsterrat";
-  font-size: 34px;
-  color: #FFFFFF;
-  position: absolute;
-  top: 244vh;
-  right: 6vh;
-  width: 33vh;
-}
-
-.textcel2q {
-  font-family: "Monsterrat";
-  font-size: 34px;
-  color: #FFFFFF;
-  position: absolute;
-  top: 265vh;
-  right: 12vh;
-}
-.textcel2 {
-  font-family: "Monsterrat";
-  font-size: 34px;
-  color: #FFFFFF;
-  position: absolute;
-  top: 278vh;
-  right: 6vh;
-  width: 33vh;
-}
-img.woman {
-  position: absolute;
-  top: 310vh;
-  right: 0vh;
-  height: 46vh;
-  width: 41vh;
-  z-index: 1;
-}
-img.button2{
-  position: absolute;
-  top: 300vh;
-  right: 10vh;
-  height: 4vh;
-  width: 27vh;
-  z-index: 1;
-}
-img.ellipse1cel{
-  position: absolute;
-  top: 227vh;
-  right: -27vh;
-  height: 54vh;
-  width: 49vh;
-  z-index: 1;
-}
-}
-
-
