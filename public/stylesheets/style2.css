@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+.background{
+    width: fit-content;
+}
 
 header.header{
     
@@ -26,17 +28,26 @@ ul.list{
     margin-top: 2vh;
 }
 li {
-font-family: "Montserrat";
+    font-family: "Montserrat";
 font-size: 14px;
 font-weight: 400;
 line-height: 17px;
 letter-spacing: 0em;
 text-align: left;
-margin: 5vh;
-}
 
+    margin: 5vh;
+}
+.clock{
+    position: absolute;
+    opacity: 0.9;
+    z-index: 1;
+    top: 32%;
+    right: 12%;
+    width: 50%;
+
+}
 /* desktop1*/
-@media (min-width: 1200px)  {
+@media (min-width: 1501px)  {
     img.bannercelimg,
     img.bannertabimg,
     img.womanimg,
@@ -60,35 +71,35 @@ margin: 5vh;
         display: none;
   }
     body{
-        background-color: #f0ebeb;
+        background-color: #eceaea;
     }
-.background {
-    background-image: url(background.png);
-    z-index: -1;
-    display: flex;
-    
-    width: 100%;
-    height: 100%;
-}
+    .background{
+        background-image:  url("background.png");
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+  
+    }
     p.text1{
         font-size: 3em;
     }
-    .banner{
-        
+    .bannerimg{
+        object-fit: cover;
   width:100%;
   height:100%;
     }
-    .who{
-        
+    .whoimg{
+        object-fit: cover;
         width:100%;
         height:100%;
-          }
-    
+    }
     .button{
         position: absolute;
         width: 43%;
         z-index: 1;
-        top: 81%;
+        top: 62%;
         right: 37%;
      
     }
@@ -113,8 +124,8 @@ margin: 5vh;
     font-style: normal;
     color: #333333;
     position: absolute;
-    top: 70%;
-    width: 35%;
+    top: 50%;
+    width: 21%;
     margin-left: 20%;
     font-family: "Montserrat";
     font-size: 19px;
@@ -124,16 +135,13 @@ margin: 5vh;
     
 
 }
-.clock{
-    position: absolute;
-    opacity: 0.9;
-    z-index: 1;
-    top: 42%;
-    right: -4%;
-    width: 65%;
+    
+    
+    
 }
-}
-@media (min-width: 900px) and (max-width:1199px)  {
+@media (min-width: 992) and (max-width: 1300px){}
+/* desktop2*/
+@media (min-width: 991.98px) and (max-width: 1500px) {
     img.bannercelimg,
     img.bannertabimg,
     img.womanimg,
@@ -156,32 +164,26 @@ margin: 5vh;
     img.button2{
         display: none;
     }
-body{
-    background-color: #eceaea;
-}
-.background{ 
-    background-image:  url("background.png");
-    z-index: -1;
-    
-    width: 100%;
-}
-
+    body{
+        background-color: #eceaea;
+    }
+    .background{ 
+         background-image:  url("background.png")
+        }
  .clock{
     position: absolute;
-    opacity: 0.9;
-    z-index: 1;
-    top: 32%;
-    right: -20%;
-    width: 81%;
-
-}
+        width: 58%;
+        z-index: 1;
+        top: 77%;
+        right: -25%;
+    }
 
 .button {
     position: absolute;
     width: 43%;
     z-index: 1;
-    top: 78%;
-    right: 27%;
+    top: 111%;
+    right: 37%;
 
 }
         
@@ -196,15 +198,17 @@ body{
         width: 49vh;
         margin-left: 41vh;
     }
-
+    p.text1{
+        font-size: 2.5em;
+    }
         
     .text2{
         font-style: normal;
         color: #333333;
         position: absolute;
-        top: 61%;
-        width: 34%;
-        margin-left: 41vh;
+        top: 96%;
+        width: 49%;
+        margin-left: 20%;
         font-family: "Montserrat";
         font-size: 19px;
         font-weight: 400;
@@ -214,99 +218,12 @@ body{
         
     
     }
- /*Tablet*/ 
-@media (min-width: 768px) and (max-width:899px){
-    li,
-    img.bannercelimg,
-    img.bannerimg,
-    img.womanimg,
-    img.backgroundimg,
-    img.backgroundcelimg,
-    img.whoimg,
-    img.whocelimg,
-    .textcel2,
-    .textcel1,
-    .textcel2q,
-    .textcel1q,
-    .ellipse1,
-    .ellipse2,
-    .ellipse3,
-    img.ellipse1cel,
-    img.button2{
-        display: none;
-  }
-  .background {
-    background-image: url(backgroundtab.png);
-    z-index: -1;
-    display: flex;
-    flex-direction: row;
-    width: 112vh;
-    justify-content: flex-end;
-    align-items: stretch;
-    margin-right: 42%;
-    }
-    img.hamburguer {
-        position: absolute;
-        margin-left: 87vh;
-        z-index: 1;
-    }
-
-    .clock{
-        position: absolute;
-        width: 63%;
-        opacity: 0.9;
-        z-index: 1;
-        top: 39%;
-        right: 17%;
-    }
-    .button{
-        position: absolute;
-        width: 43%;
-        z-index: 1;
-        top: 91%;
-        right: 15%;
-    }
-    
-    .spotsimg{
-    position: absolute;
-    width: 24%;
-    z-index: 1;
-    top: 66%;
-    right: 19%;
-    }
-    .text1{
-        
-        font-family: 'Libre Baskerville';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 2em;
-        
-        
-        position: absolute;
-        top: 20%;
-        width: 40%;
-        margin-left: 32%;
-        
-    }
-    .text2 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1em;
-        line-height: 160%;
-        color: #333333;
-        position: absolute;
-        top: 72%;
-        width: 38%;
-        margin-left: 35%;
-    }
-    
-
-}
+  
 
 
+/*Tablet*/
 
-@media (min-width: 576px) and (max-width:767px){
+@media (min-width: 576px) and (max-width: 991.97px)  {
     li,
     img.whoimg,
     img.whocelimg,
@@ -314,6 +231,7 @@ body{
     img.bannercelimg,
     img.backgroundimg,
     img.backgroundcelimg,
+    img.spotsimg,
     .textcel2,
     .textcel1,
     .textcel2q,
@@ -328,19 +246,18 @@ body{
     }
     
     .background {
-    background-image: url(backgroundtab.png);
-    z-index: -1;
-    display: flex;
-    flex-direction: row;
-    width: 112vh;
-    justify-content: flex-end;
-    align-items: stretch;
-    margin-right: 42%;
+        background-image: url(backgroundtab.png);
+        z-index: -1;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: stretch;
     }
 
 img.hamburguer{
     position: absolute;
-    margin-left: 87vh;
+    margin-left: 10%;
     z-index: 1;
 }
 .clock{
@@ -348,54 +265,49 @@ img.hamburguer{
     width: 63%;
     opacity: 0.9;
     z-index: 1;
-    top: 39%;
-    right: 17%;
+    top: 22vh;
+    right: 7vh;
 }
-.spotsimg{
-    position: absolute;
-    width: 24%;
-    z-index: 1;
-    top: 62%;
-    right: 19%;
-    }
-.button{
+p.text1{
+    font-size: 2em;
+}
+.buttonimg{
     position: absolute;
     width: 43%;
     z-index: 1;
-    top: 91%;
-    right: 15%;
+    top: 50vh;
+    right: 12vh;
 }
 .text1{
     
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2em;
-    
-    
-    position: absolute;
-    top: 20%;
-    width: 40%;
-    margin-left: 32%;
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.3em;
+        color: #333333;
+        position: absolute;
+        top: 20%;
+        width: 40%;
+        margin-left: 20%;
     
 }
 .text2 {
-    font-family: 'Montserrat';
+    font-family: 'Libre Baskerville';
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.7em;
     line-height: 160%;
     color: #333333;
     position: absolute;
-    top: 66%;
+    top: 50%;
     width: 38%;
-    margin-left: 35%;
+    margin-left: 10%;
 }
 }
 
 /*cell*/
-@media (min-width: 320px) and (max-width:575px){
-    .desktop-nav,
+@media (max-width: 575.98px) {
+    li,
     img.whoimg,
     img.whotabimg,
     img.bannerimg,
@@ -403,19 +315,12 @@ img.hamburguer{
     img.backgroundimg,
     img.backgroundtabimg,
     .ellipse2,
-    .ellipse3,
-    ul.list{
+    .ellipse3{
       display:none;
     }
-  
+    body{background: green;}
     .background{ 
-        background-image:  url("backgroundcel.png");
-        
-       }
-       img.backgroundcel{
-        position: relative;
-    top: -15px; /* ajustar los valores para mover la imagen */
-    left: -5px;
+        background-image:  url("backgroundcel.png")
        }
        p.text1{
         font-size: 1.5em;
