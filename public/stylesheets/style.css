@@ -35,7 +35,9 @@ margin: 5vh;
     display: flex;
     flex-wrap: wrap;
 }
-
+.mid{
+    display: flex;
+}
 /* desktop1*/
 @media (min-width: 1200px)  {
     img.bannercelimg,
@@ -438,8 +440,9 @@ img.hamburguer{
         flex-direction: row;
         width: -5vh;
         justify-content: flex-end;
-        margin-right: -53vh;
+        margin-right: 0vh;
         height: 94vh;
+        margin-top: -40vh
     }
         .low{
             flex-direction: column;
@@ -518,91 +521,185 @@ img.hamburguer{
     img.bannerimg,
     img.bannertabimg,
     img.backgroundimg,
-    img.backgroundcelimg,
+    img.backgroundtabimg,
     .ellipse2,
     .ellipse3,
     ul.list{
       display:none;
+    }
+    .mid {
+        /* left: 59%; */
+        display: flex;
+        flex-direction: row-reverse;
+        /* align-items: flex-end; */
+        /* left: auto; */
+        position: relative;
     }
     header.header {
         display: flex;
     flex-direction: column;
     }
     .background {
-        background-image: url(backgroundtab.png);
-    z-index: -1;
-    display: flex;
-    flex-direction: row;
-    width: -5vh;
-    justify-content: flex-end;
-    margin-right: -57vh;
-    height: 135vh;
-    margin-bottom: -254px;
+        background-image: url(backgroundcel.png);
+        z-index: -1;
+        display: flex;
+        flex-direction: row;
+        width: -5vh;
+        justify-content: flex-end;
+        margin-right: 0vh;
+        height: 94vh;
+        margin-top: -40vh
     }
+    img.backgroundcelimg{
+        width: 15vh;
+    height: 150vh
+    
+    }
+
         .low{
             flex-direction: column;
         }
        
         img.hamburguer {
             position: absolute;
-            margin-left: 87vh;
-            z-index: 1;
+    margin-left: 25vh;
+    z-index: 1
         }
     
         .clock {
             position: absolute;
-            width: 74%;
-            opacity: 0.9;
-            z-index: 1;
-            top: 36%;
-            right: -1%;
+    width: 75%;
+    opacity: 0.9;
+    z-index: 1;
+    top: 29%;
+    right: 9%;
         }
         .button{
             position: absolute;
-    width: 43%;
+            /* z-index: 1; */
+            top: 85%;
+            right: 11%;
+            width: 229px;
+        }
+
+.womanimg{
     z-index: 1;
-    top: 91%;
-    right: -33%;
+    top: 207vh;
+    position: absolute;
+    right: -3vh;
+}
+.textcel1q{
+    z-index: 1; 
+    /* top: 207vh; */
+    position: absolute;
+    right: -11vh;
+    /* width: 262px; */
+    /* height: 76px; */
+    left: 34px;
+    top: 1076px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.textcel1{
+    z-index: 1;
+    top: 207vh;
+    position: absolute;
+    right: -3vh;
+    position: absolute;
+    width: 281px;
+    height: 136px;
+    left: 47px;
+    top: 1226px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.textcel2q{
+    z-index: 1;
+    top: 207vh;
+    position: absolute;
+    right: -3vh;
+    position: absolute;
+    width: 281px;
+    height: 38px;
+    left: 47px;
+    top: 1397px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.textcel2{
+    z-index: 1;
+    top: 207vh;
+    position: absolute;
+    right: -3vh;
+    position: absolute;
+    width: 281px;
+    height: 143px;
+    left: 53px;
+    top: 1467px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF; 
+}
+.button2{
+    z-index: 1;
+    top: 207vh;
+    position: absolute;
+    right: -3vh;
 }
      img.ellipse1{
         top:50vh;
      }   
         .spotsimg{
             position: absolute;
-            width: 43%;
+            width: 40%;
             z-index: 1;
-            top: 63%;
-            right: -2%;
+            top: 58%;
+            right: 20%;
         }
         img.bannercelimg{
-            width: 98vh;
-            height: 87vh;
+            width: 100%;
+            height: 100%;
         
         }
   
 
         .text1 {
             font-family: 'Libre Baskerville';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 1.5em;
-            position: absolute;
-            top: 23%;
-            width: 38%;
-            margin-left: 37%;
-            top: 17%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    position: absolute;
+    top: 23%;
+    width: 69%;
+    margin-left: 43%;
+    top: 9%;
         }
         .text2 {
             font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 160%;
-    color: #333333;
-    position: absolute;
-    top: 72%;
-    width: 79%;
-    margin-left: 20%;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.8em;
+            line-height: 160%;
+            color: #333333;
+            position: absolute;
+            top: 63%;
+            width: 66%;
+            right: 6vh;
         }
         
     
