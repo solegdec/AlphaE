@@ -1,120 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <title>Better Weigh Medical Landing Page</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <meta charset="UTF-8">
    
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=3" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
+  
 <body>
-   <main class="wrapper"> 
-       <header class="header">  
-            <div class="logo">
-              <img class="logoimg"  src="images/logo.png" alt="Logo"> 
-            </div>
-
-            <nav class="desktop-nav">
-              <ul class="list"> 
-                <li> Book Online</li>
-                <li> Weight Loss Programs</li>
-                <li> Real Patients Stories</li>
-                <li> Locations </li>
-                <li> Blog </li>
-                <li> Subscription </li>
-                <li> Shop </li>
-                <li>About Us</li> 
-              </ul>
-            </nav>
-
-            <div class="hamburguer">
-              <img class="hamburguer"src="images/menu.png" alt="">
-            </div>    
-      </header>  
-       
-
-       <section class="mid">
-            <div class="background">
-                          <img src="images/background.png" alt="" class="backgroundimg" >
-                          <img src="images/backgroundcel.png" alt="" class="backgroundcelimg">
-                          <img src="images/backgroundtab.png" alt="" class="backgroundtabimg">
-                          
-            </div> 
-
-                <div class="ellipses">
-                  <img src="images/ellipse1.png" alt="" class="ellipse1">
-                    <img src="images/ellipse2.png" alt="" class="ellipse2">
-                    <img src="images/ellipse3.png" alt="" class="ellipse3">
-                </div>
-
-            <div class="clock">
-                  <img src="images/clock.png" alt="" class="clock" >
-            </div>
-
-            <div class="text1">
-                  <p>Chicago’s <span style="color:#DD71C6">Free</span> Medical Check-Up and Weight Loss Consultation</p>
-            </div>
-
-            <div class="text2">
-                  <p>There are limited spots due to the Physicians schedule and the high demand for service. No credit card or insurance required.</p>
-            </div>
-
-            <div class="spots">
-              <img src="images/spots.png" alt="" class="spotsimg">
-            </div>
-
-            <div class="button">
-              <img src="images/button.png" alt="" class="buttonimg">
-            </div>
+   
+ <header class="container-fluid">  
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+       <img class="navbar-brand"  src="images/logo.png" alt="Logo">
+      <button class="navbar-toggler pink"  id="hamb" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon pink" id="hamb" ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Book Online</a>
+           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Weight Loss Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Real Patients Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"> Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Subscription</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+</header>       
+  
+<main class="container-fluid">
+     <div class="top">  
+              <img src="images/background.png"  class="backgroundimg" >
+      <div class="over">        
+        
          
-       </section>
 
-      <section class="low">
-            <div class="banner">
-                <img src="images/banner.png" alt="" class="bannerimg">
-                <img src="images/bannercel.png" alt="" class="bannercelimg">
-                <img src="images/bannertab.png" alt="" class="bannertabimg">
-            </div>
-           
-            <div class="who">
-                <img src="images/who.png" alt="" class="whoimg">
-                <img src="images/whotab.png" alt="" class="whotabimg">
-                <img src="images/whocel.png" alt="" class="whocelimg">
-            </div>
-            
-            <div class="textcel1q">
-                <h2>Who Is The Consultation For?</h2>
-             </div>
-            <div class="textcel1">
-              <p>Chicago’s free medical check-up and weight loss 
-                consultation is for Chicago residents who are looking to 
-                lose weight so they can live a long, vibrant and healthy life,
-                 while looking good and not breaking the bank</p>
-           </div>
+       
+         <div class="text1" id="#text1">
+          <p class="">Chicago’s <span style="color:#DD71C6">Free</span> Medical Check-Up and Weight Loss Consultation</p>
+        </div>
+        <div class="spots">
+         <p>Only<span style="color:#DD71C6">11</span> spots available!</p> 
+        </div>
+        <div class="clock">
+        <img src="images/clock.png" alt="" class="" >
+        </div>
+        <div class="text2">
+          <p class="">There are limited spots due to the Physicians schedule and the high demand for service. No credit card or insurance required.</p>
+        </div>
+        <div class="button">
+          <img src="images/button.png" alt="" class="buttonimg">
+        </div>
+        <img src="images/ellipse1.png" alt="" class="ellipse1">
+        <img src="images/ellipse2.png" alt="" class="ellipse2">
+        <img src="images/ellipse3.png" alt="" class="ellipse3">
 
-           <div class="textcel2q">
-            <h2>How does it work?</h2>
-            </div>
-            <div class="textcel2">
-            <p>In this exam a certified nurse or physician will do various 
-              tests to check your overall health level and find which easy-to-do 
-              physician-supervised weight loss program will work best for you.</p>
-            </div>
-            <div class="button2">
-              <img src="images/button.png" alt="" class="button2">
-              
-            </div>
-            <div>
-              <img src="images/ellipse1.png" alt="" class="ellipse1cel">
-            </div>
-          <div class="woman">
-            <img src="images/woman.png" alt="" class="womanimg">
-          </div>
-      </section>
-  </main>  
+  
+
+      </div>   
+          
+   </div>         
+    <div class="banner">
+      <!-- <img src="images/bannercel.png" alt="" class="bannercelimg"> -->
+  <img src="images/Frame72.png" alt="">
+  <img src="images/Frame72.png" alt="">
+  <img src="images/Frame72.png" alt="">
+  <img src="images/Frame72.png" alt="">
+
+      
+    </div> 
+  <!-- <img src="images/banner.png" alt="" class="bannerimg">
+  
+  <img src="images/bannertab.png" alt="" class="bannertabimg">
+
+
+
+  <img src="images/who.png" alt="" class="whoimg">
+  <img src="images/whotab.png" alt="" class="whotabimg">
+  <img src="images/whocel.png" alt="" class="whocelimg">
+
+-->
+<div class="who">
+<div class="textcel1q">
+  <h2>Who Is The Consultation For?</h2>
+</div>
+<div class="textcel1">
+      <p>Chicago’s free medical check-up and weight loss 
+        consultation is for Chicago residents who are looking to 
+        lose weight so they can live a long, vibrant and healthy life,
+          while looking good and not breaking the bank</p>
+</div>
+
+<div class="textcel2q">
+      <h2>How does it work?</h2>
+</div>
+<div class="textcel2">
+    <p>In this exam a certified nurse or physician will do various 
+    tests to check your overall health level and find which easy-to-do 
+    physician-supervised weight loss program will work best for you.</p>
+</div>
+<div class="button2">
+<img src="images/button.png" alt="" class="button2">
+
+</div>
+<div>
+<img src="images/ellipse1.png" alt="" class="ellipse1cel">
+</div>
+<div class="woman">
+<img src="images/woman.png" alt="" class="womanimg">
+</div>
+</div>
+</main>  
+<footer>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -1,787 +1,233 @@
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+ /* X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+*{
+    box-sizing: border-box;
+}
+header{
+    border: solid black;
+    padding-left: 10%;
 }
 
-body{
-    background-color: #eceaea;
+main{
+border:solid black;
+}
+.top{
     width: 100%;
-    
-    }
-
-header.header{
-display: flex;
-flex-direction: row;
-justify-content: center; 
-align-content: stretch; 
-align-items: center; 
-
-margin-left: auto;
-margin-right: auto;
- width: 100%;
-}
-
-nav.desktop-nav{
-display: flex;
-flex-direction: row;
-list-style: none;
-justify-content: space-around;
-
-}
-ul.list{
-display: flex;
-flex-direction: row;
-list-style: none;
-margin-top: 2vh;
-width: 100%;
-}
-li {
-font-family: "Montserrat";
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left;
-padding-right: 5%;
-width: 100%;
-
-}
-.wrapper{
-display: flex;
-flex-wrap: wrap;
-}
-.mid{
-display: flex;
-width: 100%;
-}
-
-/* desktop1*/
-@media (min-width: 1200px)  {
-img.bannercelimg,
-img.bannertabimg,
-img.womanimg,
-img.textcel1,
-img.textcel2,
-img.hamburguer,
-img.backgroundcelimg,
-img.backgroundtabimg,
-img.whotabimg,
-img.whocelimg,
-img.spotsimg,
-.textcel2,
-.textcel1,
-.textcel2q,
-.textcel1q,
-.ellipse1,
-.ellipse2,
-.ellipse3,
-img.ellipse1cel,
-img.button2{
-display: none;
-}
-body{
-background-color: #f0ebeb;
-}
-.background {
-background-image: url(background.png);
-z-index: -1;
-display: flex;
-width: 100%;
-height: 100%;
-}
-
-.backgroundimg{
-width: 100%;
-
-}
-
-
-.banner{
-    width:100%;
-   
-}
-
-.bannerimg {
-    width: 100%;
-   
-}
-
-.low{
-    
-    width: 100%;
-}
-
-.who{
-width:100%;
-height:100%;
-}
-
-.whoimg{
-    width: 100%;
-}
-
-.button{
-    position: absolute;
-    width: 0%;
-    z-index: 1;
-    top: 69%;
-    right: 37%;
-    margin-top: -3%
-
-}
-
-
-.text1{
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2em;
-    color: #585656;
-   
-    top: 37%;
-    width: 35vh;
-    height: auto;
-    margin-left: -76%;
-    margin-top: 10%;
-
-}
-
-
-.text2{
-    font-style: normal;
-    color: #333333;
-    width: 26%;
-    margin-left: -22%;
-    font-family: "Montserrat";
-    font-size: 1.2em;
-    font-weight: 400;
-    margin-top: 26%;
-
-
-}
-.clock{
-    position: absolute;
-    opacity: 0.9;
-    z-index: 1;
-    top: 26%;
-    right: 9%;
-    width: 58%;
-}
-}
-
-@media (min-width: 900px) and (max-width:1199px)  {
-img.bannercelimg,
-img.bannertabimg,
-img.womanimg,
-img.textcel1,
-img.textcel2,
-img.hamburguer,
-img.backgroundcelimg,
-img.backgroundtabimg,
-img.whotabimg,
-img.whocelimg,
-img.spotsimg,
-.textcel2,
-.textcel1,
-.textcel2q,
-.textcel1q,
-.ellipse1,
-.ellipse2,
-.ellipse3,
-img.ellipse1cel,
-img.button2{
-display: none;
-}
-
-.banner{
-    width:100%;
-    
-}
-
-.bannerimg {
-    width: 100%;
-   
-}
-
-.low{
-  
-    width: 100%;
-}
-
-.who{
-width:100%;
-height:100%;
-}
-
-.whoimg{
-    width: 100%;
-}
-
-.backgroundimg{
-    width: 100%;
-}
-
-.background{ 
-background-image:  url("background.png");
-z-index: -1;
-
-width: 100%;
-}
-
-.clock{
-    position: absolute;
-    opacity: 0.9;
-    top: 11%;
-    right: 12%;
-    width: 56%;
-    margin-right: -1%;
-    
-}
-
-.button {
-    position: absolute;
-    width: 45%;
-    z-index: 1;
-    top: 39%;
-    right: 2%;
-   
-
-}
-
-.text1{
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2em;
-    color: #333333;
-    position: absolute;
-    top: 12vh;
-    width: 27vh;
-    margin-left: 24vh;
-}
-
-
-.text2{
-    font-style: normal;
-    color: #333333;
-    position: absolute;
-    top: 30%;
-    width: 34%;
-    margin-left: 20vh;
-    font-family: "Montserrat";
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-}
-
-
-}
-
-/*Tablet*/ 
-@media (min-width: 768px) and (max-width:899px){ /* esta todo dentro OK */
-    li,
-    img.whoimg,
-    img.whocelimg,
-    img.bannerimg,
-    img.bannercelimg,
-    img.backgroundimg,
-    img.backgroundcelimg,
-    .textcel2,
-    .textcel1,
-    .textcel2q,
-    .textcel1q,
-    .ellipse1,
-    .ellipse2,
-    .ellipse3,
-    img.ellipse1cel,
-    img.button2,
-    img.womanimg{
-    display:none;
-    }
-
-    header.header {
     display: flex;
     flex-direction: column;
+    
+}
+.backgroundimg{
+    position: absolute;
+    border:solid green;
     width: 100%;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    z-index: -1;
     
-    } 
-        
-    .mid{
-        width: 100%;
-        
-    }
+ } 
+ .clock{
+    border: solid orange;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+     }
     
-    .background{
-      
-        width: 100%;
-        flex-direction: row;
-        display: flex;
-        align-items: flex-end;
-    }
 
-    img.backgroundtabimg{
+@media  (min-width: 300px) and (max-width: 575px)  { 
+.ellipse1,
+.ellipse2,
+.ellipse3{display: none;}
+    .backgroundimg{
+        position: absolute;
+    border: solid green;
+    width: 50%;
+    height: 80%;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    z-index: -1;
+        
+     } 
+     .over{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: center
+
+     }
+     .clock img{
+        opacity: 0.9;
+        width: 73%;
         position: relative;
+        height: 30%;
+        z-index: 1;
+        left: 11%;
+    }
+     .text1 {
+        font-size: 1.2em;
+        width: 51%;
+        margin-top: 14%;
+        margin-left: 25%;
+        border: red solid;
+
+     }
+     .text2 {
+        font-size: 1em;
+        width: 51%;
+        margin-top: 14%;
+        margin-left: 25%;
+        border: red solid;;
+         }
+    .spots{
+        text-align: center;
+       }       
+
+       .banner{
+        width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    background-color: #DD71C6;
+    /* z-index: -1; */
+    /* align-items: flex-end; */
+    justify-content: center;
+    /* align-content: center; */
+    flex-wrap: wrap;
+}
+     .banner img{
         width: 50%;
-        margin-left: auto;
-        top: 94px;
-        background: #FFD900;
-        border-radius: 50px 0px 0px 0px;
+     }
+        
+      
+            
+        
+         
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px)  and (max-width:767px){ 
+    .backgroundimg{
+        position: absolute;
+        border:solid green;
+        width: 50%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        z-index: -1;
+         } 
+    .clock{
+        width: 63%;
+        position: relative;
+        height: 30%;
+        z-index: 1;
+        left: 17%;
+margin-top: 38%;
+     }
+     .text1 {
+        width: 30%;
+        margin-top: 18%;
+        margin-left: 30%;
+        border: red solid;
+
+     }
+     .text2 {
+        width: 33%;
+        margin-top: 37%;
+        margin-left: 30%;
+        border: red solid;
+         }
+  
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .backgroundimg{
+        position: absolute;
+        border:solid green;
+        width: 50%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
         z-index: -1;
         
     }
-    
-    .low{
-        width: 100%;
-      
-        flex-direction: column;
-    }
-
-    img.bannertabimg{
-        width: 100%;
-    }
-
-    img.whotabimg{
-        width: 100%;
-    }
-
-    img.hamburguer{
-    position: absolute;
-    margin-left: 30%;
-    z-index: 1;
-    top: 18px
-    }
-
     .clock{
-    position: absolute;
-    width: 63%;
-    opacity: 0.9;
-    z-index: 1;
-    top: 39%;
-    right: 17%;
-    }
-    .spotsimg{
-    position: absolute;
-    width: 24%;
-    z-index: 1;
-    top: 62%;
-    right: 19%;
-    }
-    .button{
-    position: absolute;
-    width: 43%;
-    z-index: 1;
-    top: 91%;
-    right: 15%;
-    }
-   
-    .text1{
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2em;
-    
-    
-    position: absolute;
-    top: 20%;
-    width: 40%;
-    margin-left: 32%;
-    
-    }
-    .text2 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 160%;
-    color: #333333;
-    position: absolute;
-    top: 66%;
-    width: 38%;
-    margin-left: 35%;
-    }
-}
-    
-@media (min-width: 576px) and (max-width:767px){  /* esta todo dentro OK */
-    li,
-    img.whoimg,
-    img.whocelimg,
-    img.bannerimg,
-    img.bannercelimg,
-    img.backgroundimg,
-    img.backgroundcelimg,
-    .textcel2,
-    .textcel1,
-    .textcel2q,
-    .textcel1q,
-    .ellipse1,
-    .ellipse2,
-    .ellipse3,
-    img.ellipse1cel,
-    img.button2,
-    img.womanimg{
-    display:none;
-}
-.logo{
-    margin-right: 51%;
-    margin-top: 5%;
-}
-header.header {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-   
-    } 
-        
-    .mid{
-        width: 100%;
-        
-    }
-    
-    .background{
-     
-        width: 100%;
-        flex-direction: row;
-        display: flex;
-        align-items: flex-end;
-    }
-
-    img.backgroundtabimg{
-    position: relative;
-    width: 50%;
-    margin-left: auto;
-    /* top: 94px; */
-    background: #FFD900;
-    border-radius: 50px 0px 0px 0px;
-    z-index: -1;
-
-      
-    }
-    
-    .low{
-        width: 100%;
-   
-        flex-direction: column;
-    }
-
-    img.bannertabimg{
-        width: 100%;
-    }
-
-    img.whotabimg{
-        width: 100%;
-    }
-
-    img.hamburguer{
-        position: absolute;
+        width: 63%;
+        position: relative;
+        height: 30%;
+        z-index: 1;
+        left: 17%;
+margin-top: 38%;
+     }
+     .text1 {
+        width: 30%;
+        margin-top: 18%;
         margin-left: 30%;
-        z-index: 1;
-        top: 6%;
-    }
+        border: red solid;
 
-    .clock{
+     }
+     .text2 {
+        width: 33%;
+        margin-top: 37%;
+        margin-left: 30%;
+        border: red solid;
+         }
+}
+/* // Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .backgroundimg{
         position: absolute;
-        width: 68%;
-        opacity: 0.9;
-        z-index: 1;
-        top: 35%;
-        right: 17%;
-    
-    }
-    .spotsimg{
-    position: absolute;
-    width: 24%;
-    z-index: 1;
-    top: 52%;
-    right: 26%;
-    }
-    .button{
-        position: absolute;
-        width: 43%;
-        z-index: 1;
-        top: 69%;
-        right: 23%;
-    }
-   
-    .text1{
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2em;
-    position: absolute;
-    top: 20%;
-    width: 40%;
-    margin-left: 32%;
-    
-    }
-    .text2 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1em;
-        line-height: 160%;
-        color: #333333;
-        position: absolute;
-        top: 57%;
-        width: 44%;
-        margin-left: 31%;
-    }
-}
-
-/*cell*/
-@media (min-width:330px) and (max-width:575px){
-    .desktop-nav,
-    img.whoimg,
-    img.whotabimg,
-    img.bannerimg,
-    img.bannertabimg,
-    img.backgroundimg,
-    img.backgroundtabimg,
-    .ellipse2,
-    .ellipse3,
-    ul.list{
-    display:none;
-}
-.mid{
-    width: 100%;
-   display: block;
-}
-
-
-.low{
-flex-direction: column;
-width: 100%;
-
-}
-
-
-
-.background{
- 
-    width: 100%;
-    flex-direction: row;
-    display: flex;
-    align-items: flex-end;
-}
-
-img.backgroundcelimg{
-position: relative;
-width: 50%;
-margin-left: auto;
-/* top: 94px; */
-background: #FFD900;
-border-radius: 50px 0px 0px 0px;
-z-index: -1;
-
-  
-}
-
-.logo{
-position: absolute;
-width: 88.91px;
-height: 40px;
-left: 20px;
-top: 18px;
-}
-
-.hamburguer{
-    margin-left: 60%;
-}
-
-img.hamburguer {
-z-index: 1;
-}
-
-.clock{
-    display: flex; 
-    padding: 26px 36px;
-    /* gap: 10px; */
-    position: absolute;
-    width: 85%;
-    /* height: 159px; */
-    left: 8%;
-    top: 22%;
-}
-    .button2 {
-        position: absolute;
-        width: 60%;
+        border:solid green;
+        width: 50%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        z-index: -1;
         
-        left: 76px;
-        top: 213%;
     }
-
-
-.button{
+    .clock{
+        width: 63%;
+        position: relative;
+        height: 30%;
+        z-index: 1;
+        left: 17%;
+margin-top: 38%;
+     }
     
-    width: 42%;
-    left: 23%;
-    top: 68%;
-    box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
-}
+ }
+/* 
+// X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .backgroundimg{
+        position: absolute;
+        border:solid green;
+        width: 50%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        z-index: -1;
+       
+     }
+     .clock{
+        width: 63%;
+        position: relative;
+        height: 30%;
+        z-index: 1;
+        left: 17%;
+margin-top: 38%;
+     }
+  }
 
-img.buttonimg{
-    width: 47%;
-    position: absolute;
-    margin-top: -68%;
-    left: 26%;
-    
-}
-
-img.button2{
-    position: absolute;
-    width: 43%;
-    right: 26%;
-    /* height: 40px; */
-    /* left: 80px; */
-    top: 54%;
-    background: #DD71C6;
-     
-}
-
-.spotsimg{
-    position: absolute;
-    width: 44%;
-    /* height: 19px; */
-    left: 26%;
-    top: 45%;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 158.4%;
-    text-align: center;
-    color: #333333;
-}
-
-img.bannercelimg{
-
-width: 100%;
-height: 100%;
-left: 0px;
-top: 768px;
-background: #DD71C6;
-}
-.text1{
-    position: absolute;
-    width: 50%;
-    /* height: 192px; */
-    left: 20%;
-    top: 8%;
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5em;
-    line-height: 160%;
-    text-align: center;
-    color: #333333;
-}
-.text2 {
-    position: absolute;
-    width: 58%;
-    left: 20%;
-    top: 56%;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 160%;
-    color: #333333;
-   
-}
-.who{
-    width: 100%;
-}
-.whocelimg{
-    width: 100%;
-    height: 1100px;
-    left: 0px;
-    top: 1543px;
-    background: #73C3F4;
-}
-
-.textcel1q{
-    position: relative;
-    z-index: 1;
-    bottom: 44%;
-    margin-left: 14%;
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 160%;
-    color: #FFFFFF
-    
-}
-.textcel1{
-    z-index: 1;
-    bottom: 43%;
-    width: 84%;
-    position: relative;
-    margin-left: 12%;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1em;
-    line-height: 160%;
-    color: #FFFFFF;
-}
-.textcel2q{
-    position: relative;
-    z-index: 1;
-    bottom: 41%;
-    margin-left: 27%;
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 160%;
-    color: #FFFFFF;
-  
-}
-
-.textcel2{
-    z-index: 1;
-    bottom: 40%;
-    width: 87%;
-    position: relative;
-    margin-left: 9%;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1em;
-    line-height: 160%;
-    color: #FFFFFF;
-
-}   
-.woman{
-    bottom: 35%;
-    position: relative;
-    right: -13%;
-    width: 100%;
-}  
-.ellipse1cel {
-    z-index: 1;
-    bottom: 55%;
-    right: -1%;
-    position: absolute;
-
-}
-.ellipse1{
-    z-index: 1;
-    bottom: 55%;
-    right: -1%;
-    position: absolute;
-}
-
-.spots{
-    
-}
-
-.clock{
-   
-}
-
-}
-
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .backgroundimg{
+        position: absolute;
+        border:solid green;
+        width: 50%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        z-index: -1;
+       
+    }
+    .clock{
+        width: 63%;
+        position: relative;
+        height: 30%;
+        z-index: 1;
+        left: 17%;
+margin-top: 38%;
+     }
+    }}
 
