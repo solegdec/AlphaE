@@ -2,14 +2,18 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: #F9F9F9;
+}
 header{
-    border: solid black;
+    width: 80%;
     padding-left: 10%;
     }
+header.container-fluid{
+    width: 90%;
+    text-align: center;
+}
 
-main{
-    border:solid black;
-    }
 .top{
     width: 100%;
     display: flex;
@@ -18,7 +22,7 @@ main{
     }
 .backgroundimg{
     position: absolute;
-    border:solid green;
+    opacity: 0.9;
     width: 50%;
     -ms-flex-item-align: end;
     align-self: flex-end;
@@ -36,13 +40,17 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     }
+.spots{
+    text-align: center;
+    }       
+
 @media  (min-width: 300px) and (max-width: 575px)  { 
 .ellipse1,
 .ellipse2,
 .ellipse3{display: none;}
 .backgroundimg{
     position: absolute;
-    border: solid green;
+    
     width: 50%;
     height: 100%;
     -ms-flex-item-align: end;
@@ -64,8 +72,6 @@ main{
     height: 30%;
     z-index: 1;
     left: 11%;
-    border: solid orange;
-    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
 
     }
 .text1 {
@@ -73,7 +79,7 @@ main{
     width: 51%;
     margin-top: 14%;
     margin-left: 25%;
-    border: red solid;
+    
 
     }
 .text2 {
@@ -81,7 +87,7 @@ main{
     width: 51%;
     margin-top: 14%;
     margin-left: 25%;
-    border: red solid;;
+    
     }
 .spots{
     text-align: center;
@@ -100,7 +106,7 @@ img.buttonimg {
 @media (min-width: 576px)  and (max-width:767px){ 
 .backgroundimg{
     position: absolute;
-    border:solid green;
+  
     width: 50%;
     height:100%;
     -ms-flex-item-align: end;
@@ -108,41 +114,53 @@ img.buttonimg {
     z-index: -1;
         } 
 .clock img{
-    border: #DD71C6 solid;
+    
     opacity: 0.9;
-    width: 72%;
+    width: 65%;
     position: relative;
     height: 31%;
     z-index: 1;
-    left: 11%;
+    left: 15%;
     }
         
 .text1 {
     font-size: 2em;
-    width: 45%;
+    width: 60%;
     margin-top: 10%;
-    margin-left: 25%;
-    border: red solid;
+    margin-left: 10%;
+    
 
     }
 .text2 {
     font-size: 1.5em;
-    width: 60%;
-    margin-top: 15%;
-    margin-left: 20%;
-    border: red solid;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    
         }
   img.imgbanner{
     width: 25%;
     padding-top: 10%;
     padding-bottom: 10%;
 }
+img.ellipse3{
+   
+    position: relative;
+    z-index: -1;
+    margin-top: -47%;
+    width: 30%;
+
+}
+.spots{
+    text-align: center;
+    font-size: 1.2em;
+    }       
+
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
 .backgroundimg{
     position: absolute;
-    border:solid green;
     width: 50%;
     height: 100%;
     -ms-flex-item-align: end;
@@ -151,20 +169,20 @@ img.buttonimg {
 
     }
 .clock img{
-    border: yellowgreen solid;
+    
     width: 62%;
     position: relative;
     height: 19%;
     z-index: 1;
     left: 19%;
-    margin-top: -6%;
+    margin-top: -1%;
     }
 .text1 {
     font-size: 2em;
     width: 45%;
     margin-top: 7%;
     margin-left: 15%;
-    border: red solid;
+    
 
     }
 .text2 {
@@ -172,7 +190,7 @@ img.buttonimg {
     width: 70%;
     margin-top: 10%;
     margin-left: 12%;
-    border: red solid;
+   
         }
 img.imgbanner{
     width: 25%;
@@ -180,13 +198,24 @@ img.imgbanner{
     padding-bottom: 10%;
 }
 img.ellipse3{
-    padding-top: 10%;
-    padding-bottom: 10%;
+   
+    position: relative;
+    z-index: -1;
+    margin-top: -47%;
+    width: 30%;
 
 }
+.spots{
+    text-align: center;
+    font-size: 1.2em;
+    }       
+
 }
 /* // Large devices (desktops, 992px and up) */ 
 @media (min-width: 992px) and (max-width: 1199px) { 
+body{
+background-color: #F9F9F9;
+}
 .backgroundimg{
     position: absolute;
     border:solid green;
