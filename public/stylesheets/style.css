@@ -9,7 +9,7 @@ header{
     width: 80%;
     padding-left: 10%;
     }
-header.container-fluid{
+header.container-fluid{  
     width: 90%;
     text-align: center;
 }
@@ -30,9 +30,7 @@ header.container-fluid{
 
     } 
 
-.who{
-    background-color:#73C3F4 ;
-    }   
+
 .banner{
     width: 100%;
     display: flex;
@@ -43,14 +41,69 @@ header.container-fluid{
 .spots{
     text-align: center;
     }       
+.who{
+    background-color: #73C3F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    } 
+.textcel1q,
+.textcel2q{
+    width: 86%;
+    color: #FFFFFF;
+    font-family: "Libre Baskerville";
+    font-size: 2.2em;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0% 7% 7% 4%;
+    padding-top: 20%;
+    
 
+ }
+ .textcel1,
+ .textcel2{
+     margin: 0% 7% 7% 8%;
+     padding-top: 3%;
+     color: #FFFFFF;
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 500;
+    
+    
+ }
+ .button2{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 10%;
+ }
+.woman{
+    width: 100%;
+}
+img.womanimg{
+    margin: 14% 11% 8% 16%;
+    width: 68%;
+
+}
+.elli{
+    width: 100%;
+}
+img.ellipse1cel{
+    width: 100%;
+    padding-right:0%;
+    padding-bottom: 20%;
+    position: absolute;
+}
 @media  (min-width: 300px) and (max-width: 575px)  { 
 .ellipse1,
 .ellipse2,
 .ellipse3{display: none;}
 .backgroundimg{
     position: absolute;
-    
+    border-radius: 50px 0px 0px 0px;
     width: 50%;
     height: 100%;
     -ms-flex-item-align: end;
@@ -75,18 +128,30 @@ header.container-fluid{
 
     }
 .text1 {
-    font-size: 1.2em;
-    width: 51%;
-    margin-top: 14%;
-    margin-left: 25%;
+    font-size: 2em;
+    width: 68%;
+    margin-top: 18%;
+    margin-left: 15%;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    text-align: center;
+
     
 
     }
 .text2 {
     font-size: 1em;
-    width: 51%;
-    margin-top: 14%;
-    margin-left: 25%;
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 12%;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
     
     }
 .spots{
@@ -101,7 +166,10 @@ img.buttonimg {
     z-index: 1;
     width: 50%;
     margin-left: 23%;
+    margin-top: 10%;
+    margin-bottom: 15%;
     }
+   
 }
 @media (min-width: 576px)  and (max-width:767px){ 
 .backgroundimg{
@@ -154,7 +222,8 @@ img.ellipse3{
 .spots{
     text-align: center;
     font-size: 1.2em;
-    }       
+    }  
+     
 
 }
 /* // Medium devices (tablets, 768px and up) */
