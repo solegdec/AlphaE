@@ -13,33 +13,58 @@ header.container-fluid{
     width: 90%;
     text-align: center;
 }
-
-.top{
-    width: 100%;
+.over{
+    border: red solid;
     display: flex;
+    width: 100%;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+.top{
+    border: green solid;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+   
 
     }
-.backgroundimg{
-    position: absolute;
-    opacity: 0.9;
-    width: 50%;
-    -ms-flex-item-align: end;
-    align-self: flex-end;
+.bkg{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
     z-index: -1;
+    margin-bottom: 0%;
 
     } 
-
+img.backgroundimg{
+    width: 50%;
+    height: fit-content;
+}
 
 .banner{
+    border: black solid;
     width: 100%;
     display: flex;
     background-color: #DD71C6;
     justify-content: center;
     flex-wrap: wrap;
+    
     }
 .spots{
     text-align: center;
+    align-self: center;
     }       
 .who{
     background-color: #73C3F4;
@@ -49,12 +74,15 @@ header.container-fluid{
     align-items: flex-start;
     
     } 
+.text1{
+    align-items: center;
+}
 .textcel1q,
 .textcel2q{
-    width: 86%;
+    width: 84%;
     color: #FFFFFF;
     font-family: "Libre Baskerville";
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: 400;
     line-height: 38px;
     letter-spacing: 0em;
@@ -72,13 +100,16 @@ header.container-fluid{
      font-family: 'Montserrat';
      font-style: normal;
      font-weight: 500;
+     width: 85%;
     
     
  }
- .button2{
-    width: 75%;
-    margin-left: 12%;
+.button2{
+    width: 64%;
+    margin-left: 18%;
     margin-top: 10%;
+    margin-bottom: 10%;
+    align-items: center;
  }
 .woman{
     width: 100%;
@@ -97,6 +128,28 @@ img.ellipse1cel{
     padding-bottom: 20%;
     position: absolute;
 }
+.button{
+    
+    border: #73C3F4 solid;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+img.buttonimg{
+    width: 53%;
+   position:relative;
+   margin-bottom:0%;
+   padding-bottom:0%
+   
+    
+}
+
+
+
 @media  (min-width: 300px) and (max-width: 575px)  { 
 .ellipse1,
 .ellipse2,
@@ -111,13 +164,7 @@ img.ellipse1cel{
     z-index: -1;
 
     } 
-.over{
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: center
 
-    }
 .clock img{
     opacity: 0.9;
     width: 73%;
@@ -129,9 +176,9 @@ img.ellipse1cel{
     }
 .text1 {
     font-size: 2em;
-    width: 68%;
+    width: 72%;
     margin-top: 18%;
-    margin-left: 15%;
+    
     font-family: "Libre Baskerville";
     font-weight: 400;
     line-height: 1.2;
@@ -145,7 +192,7 @@ img.ellipse1cel{
     font-size: 1em;
     width: 80%;
     margin-top: 4%;
-    margin-left: 12%;
+    
     font-family: "Montserrat";
     font-weight: 400;
     line-height: 26px;
@@ -162,13 +209,7 @@ img.ellipse1cel{
 .banner img{
     width: 50%;
     }
-img.buttonimg {
-    z-index: 1;
-    width: 50%;
-    margin-left: 23%;
-    margin-top: 10%;
-    margin-bottom: 15%;
-    }
+
    
 }
 @media (min-width: 576px)  and (max-width:767px){ 
