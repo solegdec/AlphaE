@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     background-color: #F9F9F9;
 }
@@ -25,25 +26,13 @@ header.container-fluid{
     display: flex;
     width: 100%;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    
      }
 .bkg{
     display: flex;
     flex-direction: column;
-    
-    width: 100%;
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-    z-index: -1;
-    margin-bottom: 0%;
+     } 
 
-    } 
-img.backgroundimg{
-    width: 50%;
-    height: fit-content;
-   }
 .banner{
     width: 100%;
     display: flex;
@@ -57,7 +46,7 @@ img.backgroundimg{
     align-self: center;
     }       
 .who{
-    background-color: #73C3F4;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,6 +54,7 @@ img.backgroundimg{
     
     } 
 .text1{
+    font-family: "Libre Baskerville";
     align-items: center;
 }
 .textcel1q,
@@ -81,25 +71,25 @@ img.backgroundimg{
      }
  .textcel1,
  .textcel2{
-     margin: 0% 7% 7% 8%;
-     padding-top: 3%;
-     color: #FFFFFF;
-     font-family: 'Montserrat';
-     font-style: normal;
-     font-weight: 500;
-     width: 85%;
+    margin: -9% 4% 6% 8%;
+    padding-top: 0%;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    width: 81%;
+}
     
     
- }
+ 
 .button2{
-    width: 64%;
-    margin-left: 18%;
-    margin-top: 10%;
+    width: 51%;
+    margin-left: 24%;
     margin-bottom: 10%;
-    align-items: center;
  }
 .woman{
     width: 100%;
+    background-color: #73C3F4;
 }
 img.womanimg{
     margin: 14% 11% 8% 16%;
@@ -107,26 +97,37 @@ img.womanimg{
 
 }
 .elli{
-    width: 100%;
+    align-self: flex-end;
+    width: 50%;
     overflow: hidden;
 }
 img.ellipse1cel{
     width: 50%;
-    margin-left: 50%;
     position: absolute;
-}
+} 
+
 .button{
     display: flex;
     align-content: space-between;
     justify-content: center;
     
 }
-
+.navbar-toggler-icon{
+    color: #DD71C6;
+}
 img.buttonimg{
     width: 50%;
     padding-bottom: 20%;
         }
-@media  (min-width: 300px) and (max-width: 575px)  { 
+        .low{
+            overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        background-color: #73C3F4;
+        width: 100%;
+        }
+    
+@media  (min-width: 200px) and (max-width: 575px)  { 
 .ellipse1,
 .ellipse2,
 .ellipse3{display: none;}
@@ -194,13 +195,21 @@ img.backgroundimg{
   .textcel2{
       font-size: 1.2em;
   }
+
+  .low{
+    overflow: hidden;
+display: flex;
+flex-direction: column;
+background-color: #73C3F4;
+width: 100%;
+}
+
 }
 @media (min-width: 576px)  and (max-width:767px){ 
 .bkg{
     height: 100%;
 }
 img.backgroundimg{
-    border:red dotted;
     height:fit-content;
     width: 50%;
     height: 150%;
@@ -220,6 +229,7 @@ img.backgroundimg{
     }
         
 .text1 {
+    font-family: "Libre Baskerville";
     font-size: 2em;
     width: 60%;
     margin-top: 10%;
@@ -228,6 +238,7 @@ img.backgroundimg{
 
     }
 .text2 {
+    font-family: "Montserrat";
     font-size: 1.5em;
     width: 70%;
     margin-top: 5%;
@@ -236,7 +247,7 @@ img.backgroundimg{
         }
   img.imgbanner{
     width: 25%;
-    padding-top: 10%;
+    padding-top: 3%;
     padding-bottom: 10%;
 }
 img.ellipse3{
@@ -264,9 +275,18 @@ img.ellipse3{
     }
 .textcel1,
 .textcel2{
-        font-size: 1.8em;
-        line-height: 2;
+    font-size: 1.5em;
+    line-height: 2;
     }
+
+    .low{
+        overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #73C3F4;
+    width: 100%;
+    }
+
 }
 @media (min-width: 768px) and (max-width: 991px) { 
 .backgroundimg{
@@ -277,7 +297,7 @@ img.ellipse3{
     z-index: -1;
     }
 img.backgroundimg{
-    border: black solid;
+   
     width: 50%;
     height: auto;
     }
@@ -293,7 +313,7 @@ img.backgroundimg{
     }
    
 .text1 {
-    border: #DD71C6 solid;
+   
     font-family: "Libre Baskerville";
     font-size: 2.1em;
     width: 45%;
@@ -306,7 +326,7 @@ img.backgroundimg{
     }
 .text2 {
     font-family: "Montserrat";
-    border: orangered solid;
+    
     font-size: 1em;
     width: 70%;
     margin-top: 10%;
@@ -316,11 +336,11 @@ img.backgroundimg{
         }
 img.imgbanner{
     width: 25%;
-    padding-top: 10%;
+    padding-top: 4%;
     padding-bottom: 10%;
 }
 .elli3{
-    border: red solid;
+    
     width: 100%;
     overflow: hidden;
     z-index: -1;
@@ -334,7 +354,7 @@ img.imgbanner{
   }
 
 .circle1{
-    border: rgb(21, 255, 0) solid;
+    
     overflow: hidden;
     align-self: flex-end;
     margin-top: -47%;
@@ -361,6 +381,14 @@ width: 55%;
 .textcel2{
     font-size: 1.5em;
 }
+.low{
+    overflow: hidden;
+display: flex;
+flex-direction: column;
+background-color: #73C3F4;
+width: 100%;
+}
+
 }
    
 @media (min-width: 992px) and (max-width: 1199px) { 
@@ -371,11 +399,7 @@ width: 55%;
     align-self: flex-end;
     z-index: -1;
     }
-img.backgroundimg{
-    border: black solid;
-    width: 50%;
-    height: auto;
-    }
+
 .clock img{
     opacity: 0.9;
     width: 70%;
@@ -388,7 +412,6 @@ img.backgroundimg{
     }
 
 .text1 {
-    border: #DD71C6 solid;
     font-family: "Libre Baskerville";
     font-size: 2.1em;
     width: 45%;
@@ -401,7 +424,7 @@ img.backgroundimg{
     }
 .text2 {
     font-family: "Montserrat";
-    border: orangered solid;
+    
     font-size: 1em;
     width: 48%;
     margin-top: 28%;
@@ -411,11 +434,11 @@ img.backgroundimg{
     }
 img.imgbanner{
     width: 25%;
-    padding-top: 10%;
+    padding-top: 4%;
     padding-bottom: 10%;
     }
 .elli3{
-    border: red solid;
+    
     width: 100%;
     overflow: hidden;
     z-index: -1;
@@ -429,7 +452,7 @@ img.imgbanner{
     }
 
 .circle1{
-    border: rgb(21, 255, 0) solid;
+   
     overflow: hidden;
     align-self: flex-end;
     margin-top: -47%;
@@ -454,16 +477,22 @@ img.buttonimg{
     }
 .textcel1,
 .textcel2{
-    font-size: 1.5em;
+    font-size: 1.6em;
     }
+    .low{
+        overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #73C3F4;
+    width: 100%;
+    }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-    .over{
-        border: red dotted;
-    
-    flex-direction: row;
-    }
+    /* .over{
+        flex-direction: row;
+    } */
     .top{
         overflow: hidden;
     }
@@ -472,61 +501,56 @@ img.buttonimg{
     }
     .backgroundimg{
         position: absolute;
-        width: 100%;
+        width: 40%;
         -ms-flex-item-align: end;
         align-self: flex-end;
         z-index: -1;
         }
-    img.backgroundimg{
-        border: black solid;
-        width: 30%;
-       
-        }
-        .clock{
-            width: 100%;
-        }
-    .clock img{
+    .clock{
         opacity: 0.9;
-        width: 120%;
+        width: 93%;
         position: relative;
-        
-        z-index: 1;
-        left: 20%;
-        margin-top: 0%;
-        
-        }
+        left: 19rem;
+        top: 1rem;
+    
+            
+            }
+       
+    
     
     .text1 {
-        border: #DD71C6 solid;
+        border: pink solid;
         font-family: "Libre Baskerville";
-        font-size: 3em;
-        width: 80%;
+        font-size: 3.3em;
+        width: 45%;
         text-align: left;
         line-height: 1.3;
         position: relative;
-        left: 6rem;
+        left: -20rem;
+        top: 2rem;
     }
         
         
     .text2 {
+        border: red solid;
         font-family: "Montserrat";
-        border: orangered solid;
-        font-size: 1em;
-        width: 80%;
-        margin-top: 28%;
-        margin-left: -40%;
+        font-size: 1.5em;
+        width: 55%;
+        margin-top: 14rem;
+        /* margin-left: 5rem; */
         text-align: left;
         position: relative;
-        left:-50rem
+        left: -13rem;
+        padding-top: 5%;
        
         }
     img.imgbanner{
         width: 25%;
-        padding-top: 10%;
+        padding-top: 4%;
         padding-bottom: 10%;
         }
     .elli3{
-        border: red solid;
+        
         width: 100%;
         overflow: hidden;
         z-index: -1;
@@ -552,9 +576,14 @@ img.buttonimg{
     .spots{
         text-align: center;
         font-size: 1.2em;
-        }       
+        }
+        img.imgbanner {
+            width: 19%;
+            padding-top: 3%;
+            padding-bottom: 7%;
+        }
     img.buttonimg{
-        width: 55%;
+        width: 100%;
         }
     .textcel1q,
     .textcel2q{
@@ -563,57 +592,56 @@ img.buttonimg{
         }
     .textcel1,
     .textcel2{
-        font-size: 1.5em;
+        font-size: 1.6em;
         }
-        .who{
-            overflow: hidden;
-            display: flex;
-            flex-direction: row;
-        }
+    .low{
+        overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #73C3F4;
+    width: 100%;
     }
-
+}
 @media (min-width: 1400px) {
-    .over{
-        border: red dotted;
     
+ .over{
+        
     flex-direction: row;
     }
     .top{
         overflow: hidden;
     }
-    .spots{
+    .spots,
+    .circle1{
         display: none;
+    }
+    img.imgbanner {
+        width: 19%;
+        padding-top: 1%;
+        padding-bottom: 4%;
     }
     .backgroundimg{
         position: absolute;
-        width: 100%;
+        width: 40%;
         -ms-flex-item-align: end;
         align-self: flex-end;
         z-index: -1;
         }
-    img.backgroundimg{
-        border: black solid;
-        width: 30%;
-       
-        }
         .clock{
+            opacity: 0.9;
             width: 100%;
-        }
-    .clock img{
-        opacity: 0.9;
-        width: 120%;
-        position: relative;
-        
-        z-index: 1;
-        left: 20%;
-        margin-top: 0%;
-        
-        }
+            position:relative;
+            left: 26%;
+           
+            
+            }
+       
+    
     
     .text1 {
-        border: #DD71C6 solid;
+     
         font-family: "Libre Baskerville";
-        font-size: 3em;
+        font-size: 3rem;
         width: 80%;
         text-align: left;
         line-height: 1.3;
@@ -624,49 +652,54 @@ img.buttonimg{
         
     .text2 {
         font-family: "Montserrat";
-        border: orangered solid;
-        font-size: 1em;
-        width: 80%;
-        margin-top: 28%;
-        margin-left: -40%;
+        font-size: 1rem;
+        width: 146%;
+        margin-top: 4rem;
         text-align: left;
         position: relative;
-        left:-50rem
-       
+        top: 3vh;
+        left: -57rem;
+        padding-bottom: 5rem;
+        padding-top: 22rem;
         }
     img.imgbanner{
         width: 25%;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: -1%;
+        padding-bottom: 4%;
         }
     .elli3{
-        border: red solid;
+        
         width: 100%;
-        overflow: hidden;
-        z-index: -1;
+       
     
         }
-    
+        .elli{
+            align-self: flex-end;
+         
+        }
+       
     .circle2{
         overflow: hidden;
         align-self: flex-start;
         margin-top: -47%;
         }
     
-    .circle1{
-        display: none;
+       
         
-        }
     .circle1img{
         align-self: flex-start;
         left: 11%;
         top:50px
         }
-    
-    .spots{
-        text-align: center;
-        font-size: 1.2em;
-        }       
+        .button2 {
+            width: 51%;
+          margin-top: 24%;
+          margin-left: 25%;
+          position: absolute;
+     
+}
+        
+         
     img.buttonimg{
         width: 55%;
         }
@@ -677,13 +710,20 @@ img.buttonimg{
         }
     .textcel1,
     .textcel2{
-        font-size: 1.5em;
+        font-size: 1.7em;
         }
         .who{
             overflow: hidden;
             display: flex;
-            flex-direction: row;
+            
         }
-    }
+        .low{
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            background-color: #73C3F4;
+            width: 100%;
+        }
+    
 
 
