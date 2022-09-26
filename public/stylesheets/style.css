@@ -93,7 +93,7 @@ header.container-fluid{
 }
 img.womanimg{
     margin: 14% 11% 8% 16%;
-    width: 68%;
+    width: 70%;
 
 }
 .elli{
@@ -102,8 +102,10 @@ img.womanimg{
     overflow: hidden;
 }
 img.ellipse1cel{
-    width: 50%;
+    width: 24%;
     position: absolute;
+    left: 76%;
+    top: 122%;
 } 
 
 .button{
@@ -189,11 +191,11 @@ img.backgroundimg{
    }
    .textcel1q,
    .textcel2q{
-      font-size: 2.2em;
+      font-size: 2rem;
   }
   .textcel1,
   .textcel2{
-      font-size: 1.2em;
+      font-size: 1rem;
   }
 
   .low{
@@ -270,12 +272,12 @@ img.ellipse3{
     }
 .textcel1q,
 .textcel2q{
-        font-size: 2.5em;
+        font-size: 2.1rem;
         line-height: 1;
     }
 .textcel1,
 .textcel2{
-    font-size: 1.5em;
+    font-size: 1.2rem;
     line-height: 2;
     }
 
@@ -374,12 +376,12 @@ width: 55%;
     }
  .textcel1q,
  .textcel2q{
-    font-size: 2.8em;
+    font-size: 2.2em;
     line-height: 1;
 }
 .textcel1,
 .textcel2{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .low{
     overflow: hidden;
@@ -472,12 +474,12 @@ img.buttonimg{
     }
 .textcel1q,
 .textcel2q{
-    font-size: 2.8em;
+    font-size: 2.3em;
     line-height: 1;
     }
 .textcel1,
 .textcel2{
-    font-size: 1.6em;
+    font-size: 1.4em;
     }
     .low{
         overflow: hidden;
@@ -490,126 +492,137 @@ img.buttonimg{
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-    /* .over{
+    .over{
+        
         flex-direction: row;
-    } */
-    .top{
-        overflow: hidden;
-    }
-    .spots{
-        display: none;
-    }
-    .backgroundimg{
-        position: absolute;
-        width: 40%;
-        -ms-flex-item-align: end;
-        align-self: flex-end;
-        z-index: -1;
         }
-    .clock{
-        opacity: 0.9;
-        width: 93%;
-        position: relative;
-        left: 19rem;
-        top: 1rem;
-    
-            
-            }
-       
-    
-    
-    .text1 {
-        border: pink solid;
-        font-family: "Libre Baskerville";
-        font-size: 3.3em;
-        width: 45%;
-        text-align: left;
-        line-height: 1.3;
-        position: relative;
-        left: -20rem;
-        top: 2rem;
-    }
-        
-        
-    .text2 {
-        border: red solid;
-        font-family: "Montserrat";
-        font-size: 1.5em;
-        width: 55%;
-        margin-top: 14rem;
-        /* margin-left: 5rem; */
-        text-align: left;
-        position: relative;
-        left: -13rem;
-        padding-top: 5%;
-       
+        .top{
+            overflow: hidden;
         }
-    img.imgbanner{
-        width: 25%;
-        padding-top: 4%;
-        padding-bottom: 10%;
-        }
-    .elli3{
-        
-        width: 100%;
-        overflow: hidden;
-        z-index: -1;
-    
-        }
-    
-    .circle2{
-        overflow: hidden;
-        align-self: flex-start;
-        margin-top: -47%;
-        }
-    
-    .circle1{
-        display: none;
-        
-        }
-    .circle1img{
-        align-self: flex-start;
-        left: 11%;
-        top:50px
-        }
-    
-    .spots{
-        text-align: center;
-        font-size: 1.2em;
+        .spots,
+        .circle1{
+            display: none;
         }
         img.imgbanner {
             width: 19%;
-            padding-top: 3%;
-            padding-bottom: 7%;
+            padding-top: 1%;
+            padding-bottom: 4%;
         }
-    img.buttonimg{
-        width: 100%;
+        .backgroundimg{
+            position: absolute;
+            width: 40%;
+            -ms-flex-item-align: end;
+            align-self: flex-end;
+            z-index: -1;
+            }
+            .clock{
+                opacity: 0.9;
+                width: 100%;
+                position:relative;
+                left: 26%;
+               
+                
+                }
+           
+        
+        
+        .text1 {
+         
+            font-family: "Libre Baskerville";
+            font-size: 3rem;
+            width: 80%;
+            text-align: left;
+            line-height: 1.3;
+            position: relative;
+            left: 6rem;
         }
-    .textcel1q,
-    .textcel2q{
-        font-size: 2.8em;
-        line-height: 1;
-        }
-    .textcel1,
-    .textcel2{
-        font-size: 1.6em;
-        }
-    .low{
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-        background-color: #73C3F4;
-        width: 100%;
+            
+            
+        .text2 {
+            font-family: "Montserrat";
+            font-size: 1rem;
+            width: 146%;
+            margin-top: 4rem;
+            text-align: left;
+            position: relative;
+            top: 3vh;
+            left: -57rem;
+            padding-bottom: 5rem;
+            padding-top: 22rem;
+            }
+        img.imgbanner{
+            width: 25%;
+            padding-top: -1%;
+            padding-bottom: 4%;
+            }
+        .elli3{
+            
+            width: 100%;
+           
+        
+            }
+            .elli{
+                align-self: flex-end;
+             
+            }
+           
+        .circle2{
+            overflow: hidden;
+            align-self: flex-start;
+            margin-top: -47%;
+            }
+        
+           
+            
+        .circle1img{
+            align-self: flex-start;
+            left: 11%;
+            top:50px
+            }
+            .button2 {
+                width: 62%;
+          
+                margin-top: 1%;
+                margin-left: 9%;
+                position: relative;
+         
     }
-    .woman{
-        width: 100%;
-        background-color: #73C3F4;
-    }
-    img.womanimg{
-        margin: -7% 11% 7% 26%;
-    width: 44%;
+            
+             
+        img.buttonimg{
+            width: 55%;
+            }
+        .textcel1q,
+        .textcel2q{
+            font-size: 2.5em;
+            line-height: 1;
+            }
+        .textcel1,
+        .textcel2{
+            font-size: 1.4em;
+            }
+            .who{
+                overflow: hidden;
+                display: flex;
+                
+            }
+            .low{
+                overflow: hidden;
+                display: flex;
+                flex-direction: row;
+                background-color: #73C3F4;
+                width: 100%;
+            }
+            .woman{
+                width: 100%;
+                background-color: #73C3F4;
+            }
+            img.womanimg{
+                margin: 47% 2% 1% -11%;
+                width: 81%;
+            
     
-    }
+        }
 }
 @media (min-width: 1400px) {
     
@@ -701,10 +714,11 @@ img.buttonimg{
         top:50px
         }
         .button2 {
-            width: 51%;
-          margin-top: 24%;
-          margin-left: 25%;
-          position: absolute;
+            width: 62%;
+          
+            margin-top: 1%;
+            margin-left: 9%;
+            position: relative;
      
 }
         
@@ -714,12 +728,13 @@ img.buttonimg{
         }
     .textcel1q,
     .textcel2q{
-        font-size: 2.8em;
+        font-size: 2.6em;
         line-height: 1;
         }
     .textcel1,
     .textcel2{
-        font-size: 1.7em;
+        font-size: 1.4em;
+        width: 64%;
         }
         .who{
             overflow: hidden;
@@ -739,7 +754,7 @@ img.buttonimg{
         }
         img.womanimg{
             margin: 16% -3% 1% -11%;
-            width: 100%;
+            width: 81%;
         
 
     }
