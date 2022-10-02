@@ -21,11 +21,13 @@ header.container-fluid{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    gap: 10%;
    }
 .top{
     display: flex;
     width: 100%;
     flex-direction: column;
+    
     
      }
 .bkg{
@@ -241,7 +243,7 @@ img.backgroundimg{
     }
 .text2 {
     font-family: "Montserrat";
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 70%;
     margin-top: 5%;
     margin-left: 15%;
@@ -305,14 +307,15 @@ img.backgroundimg{
     }
 .clock img{
     opacity: 0.9;
-    width: 79%;
+    width: 108%;
     position: relative;
     height: 29%;
     z-index: 1;
-    left: 12%;
-    margin-top: -1%;
-    padding: 4%;
-    }
+    left: -9%;
+    margin-top: -18%;
+    padding: 17%;
+}
+    
    
 .text1 {
    
@@ -328,13 +331,12 @@ img.backgroundimg{
     }
 .text2 {
     font-family: "Montserrat";
-    
-    font-size: 1em;
-    width: 70%;
-    margin-top: 10%;
-    margin-left: -12%;
+    font-size: 1.3em;
+    width: 66%;
+    padding-bottom: 0;
+    padding-top: 8%;
+    margin-left: 0%;
     text-align: left;
-   
         }
 img.imgbanner{
     width: 25%;
@@ -427,10 +429,9 @@ width: 100%;
     }
 .text2 {
     font-family: "Montserrat";
-    
-    font-size: 1em;
+    font-size: 1.3em;
     width: 48%;
-    margin-top: 28%;
+    margin-top: 31%;
     margin-left: -40%;
     text-align: left;
 
