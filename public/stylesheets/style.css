@@ -333,8 +333,8 @@ img.backgroundimg{
     font-family: "Montserrat";
     font-size: 1.3em;
     width: 66%;
-    padding-bottom: 0;
-    padding-top: 8%;
+    /* padding-bottom: 0; */
+    padding-top: -7%;
     margin-left: 0%;
     text-align: left;
         }
@@ -518,13 +518,13 @@ img.buttonimg{
             align-self: flex-end;
             z-index: -1;
             }
-            .clock{
+            .clock img{
                 opacity: 0.8;
-                width: 100%;
-                position: relative;
-                left: 36%;
-                margin-bottom: 14%;
-                margin-top: 8%;
+    width: 80%;
+    position: relative;
+    left: 24%;
+    margin-bottom: 22%;
+    margin-top: 16%;
                 
                 }
            
@@ -705,9 +705,15 @@ img.buttonimg{
         padding-bottom: 4%;
         }
     .elli3{
-        
-        width: 100%;
-       
+        margin-top: -12%;
+        width: 108%;
+        z-index: -1;
+        /* margin-top: auto; */
+        /* margin-right: 24%; */
+        position: relative;
+        left: -73%;
+        bottom: 10%;
+        border: solid green;
     
         }
         .elli{
