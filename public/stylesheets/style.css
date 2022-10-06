@@ -296,7 +296,7 @@ img.ellipse3{
 .backgroundimg{
     position: absolute;
     width: 50%;
-      align-self: flex-end;
+  align-self: flex-end;
     z-index: -1;
     }
 
